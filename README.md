@@ -12,18 +12,19 @@ Repositório contendo o backend do projeto Algamoney do curso Fullstack Angular 
 ## ⚙ Funcionalidades Implementadas (WIP)
 
 * Categorias
-  * Inserção de categoria
+  * Adicionar uma nova categoria
   * Buscar uma categoria pelo ID
-  * Listar todas as categorias cadastradas
+  * Listar categorias cadastradas
 * Pessoas
-  * Inserção de pessoa
+  * Adicionar uma nova pessoa
   * Buscar uma pessoa pelo ID
-  * Listar todas as pessoas cadastradas
+  * Listar pessoas cadastradas
   * Deletar uma pessoa pelo ID
   * Atualizar uma pessoa cadastrada pelo ID
 * Lançamentos
-  * Listar todos os lançamentos cadastrados
-  * Buscar um Lançamento pelo ID
+  * Adicionar um novo lançamento
+  * Buscar um lançamento pelo ID
+  * Listar lançamentos cadastrados
 
 ## 🛠 Ferramentas Utilizadas
 
@@ -36,19 +37,20 @@ Repositório contendo o backend do projeto Algamoney do curso Fullstack Angular 
 
 ## 🌏 Endpoints da API
 
-| URL                                     | Método     | Descrição                                 |
-|-----------------------------------------|------------|-------------------------------------------|
-| `localhost:8080/categorias`             | **GET**    | Listar categorias cadastradas             |
-| `localhost:8080/categorias/{codigo}`    | **GET**    | Buscar uma categoria por ID               |
-| `localhost:8080/categorias`             | **POST**   | Adicionar uma categoria                   |
-| `localhost:8080/pessoas`                | **GET**    | Listar pessoas cadastradas                |
-| `localhost:8080/pessoas/{codigo}`       | **GET**    | Buscar uma pessoa por ID                  |
-| `localhost:8080/pessoas`                | **POST**   | Adicionar uma pessoa                      |
-| `localhost:8080/pessoas/{codigo}`       | **PUT**    | Atualizar os dados de uma pessoa          |
-| `localhost:8080/pessoas/{codigo}/ativo` | **PUT**    | Atualizar propriedade ativo de uma pessoa |
-| `localhost:8080/pessoas/{codigo}`       | **DELETE** | Deletar uma pessoa cadastrada             |
-| `localhost:8080/lancamentos`            | **GET**    | Listar lançamentos cadastrados            |
-| `localhost:8080/lancamentos/{codigo}`   | **GET**    | Buscar um lançamento por ID               |
+| URL                                     | Método       | Descrição                                 |
+|-----------------------------------------|--------------|-------------------------------------------|
+| `localhost:8080/categorias`             | **GET**      | Listar categorias cadastradas             |
+| `localhost:8080/categorias/{codigo}`    | **GET**      | Buscar uma categoria por ID               |
+| `localhost:8080/categorias`             | **POST**     | Adicionar uma categoria                   |
+| `localhost:8080/pessoas`                | **GET**      | Listar pessoas cadastradas                |
+| `localhost:8080/pessoas/{codigo}`       | **GET**      | Buscar uma pessoa por ID                  |
+| `localhost:8080/pessoas`                | **POST**     | Adicionar uma pessoa                      |
+| `localhost:8080/pessoas/{codigo}`       | **PUT**      | Atualizar os dados de uma pessoa          |
+| `localhost:8080/pessoas/{codigo}/ativo` | **PUT**      | Atualizar propriedade ativo de uma pessoa |
+| `localhost:8080/pessoas/{codigo}`       | **DELETE**   | Deletar uma pessoa cadastrada             |
+| `localhost:8080/lancamentos`            | **GET**      | Listar lançamentos cadastrados            |
+| `localhost:8080/lancamentos/{codigo}`   | **GET**      | Buscar um lançamento por ID               |
+| `localhost:8080/lancamentos`            | **POST**     | Adicionar um lançamento                   |
 
 <br>
 <div id="header" align="center">
