@@ -21,10 +21,12 @@ Repositório contendo o backend do projeto Algamoney do curso Fullstack Angular 
   * Listar pessoas cadastradas
   * Deletar uma pessoa pelo ID
   * Atualizar uma pessoa cadastrada pelo ID
+  * Atualizar propriedade 'ativo' em Pessoa
 * Lançamentos
   * Adicionar um novo lançamento
   * Buscar um lançamento pelo ID
   * Listar lançamentos cadastrados
+  * Deletar lançamento pelo ID
 
 ## 🛠 Ferramentas Utilizadas
 
